@@ -15,6 +15,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Complex Json',
       home: HomePage(),
+      darkTheme: ThemeData.dark(),
+      theme: ThemeData(
+        primarySwatch: Colors.deepOrange,
+        accentColor: Colors.amber,
+      ),
     );
   }
 }
